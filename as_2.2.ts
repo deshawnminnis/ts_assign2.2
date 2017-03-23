@@ -19,9 +19,9 @@ constructor(type:string, color:string, size:number)
 
 // Wrapper on the properties - present to the outside world 
 public displayMyShoeInfo(): void {
-console.log("Shoe Type:" + this.type); // this references the variables that will be trying to access its properties 
-console.log("Shoe Color:" + this.color);
-console.log("Shoe Size:" + this.size);  
+console.log(`Shoe Type:` + this.type); // this references the variables that will be trying to access its properties 
+console.log(`Shoe Color:` + this.color);
+console.log(`Shoe Size:` + this.size);  
 }
 
 
